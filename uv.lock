@@ -1,0 +1,139 @@
+version = 1
+requires-python = ">=3.13"
+
+[[package]]
+name = "cachebox"
+version = "4.4.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cb/c6/34bc523d2275488f5ba79c97e5b3ba9a0b323dacd04c4e7fcab520ed44de/cachebox-4.4.1.tar.gz", hash = "sha256:35b36115bc1fa70502ab8ccf01072f8319ad68152c17e79980103d1c08257ce7", size = 55179 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0b/1b/b75b21f66529cd70e66bfda8d7ec87695c55676ab11d4bf46b3d39e99566/cachebox-4.4.1-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:5d2e88951247b5143c6114b27c9f0b801e17bc7e126b3751313afe6fc047ce1c", size = 366463 },
+    { url = "https://files.pythonhosted.org/packages/bf/b7/59dbe2c334c423099ba21d445cf18569ea70653544e5e2859abe830fea69/cachebox-4.4.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:649f5f6e0d1ac23ca09ddc68422fc131682b72e7919bd91866bdc7bae7f7513b", size = 329255 },
+    { url = "https://files.pythonhosted.org/packages/95/d8/80d1596f06f511d06833a025eeb6575cc42ae5209bd902f4135d18c681fc/cachebox-4.4.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:207c1b7b42783d9e1aa40bb53d6de3b5edb8d9e0df53a7bcce1afc677ac29a4e", size = 351326 },
+    { url = "https://files.pythonhosted.org/packages/57/7a/f565c211d5b131e1efc7e0fc8bd20e1eb868d5c636744f6093ffab395514/cachebox-4.4.1-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:bbf16999a617fa6ccaf38f8edce4908decc6f2852f0aac0403c93d7159da2c31", size = 381768 },
+    { url = "https://files.pythonhosted.org/packages/46/9c/e1116a219d169f6df50849867cb1a7dd4af08d9077773d19e17a5b5bd969/cachebox-4.4.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:fc33f5683aae3190d01594c683538894ee9379adc4dc5700fc5af45393bb83e6", size = 411697 },
+    { url = "https://files.pythonhosted.org/packages/e0/2e/50c613e5d13f85bde97df1197426ef63cb12bc0b75308b8b7052ab37df33/cachebox-4.4.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:33f2a9987503e1b17046a9241ef330aebfdfb2774b34bd539f75e1be35e71ce1", size = 623717 },
+    { url = "https://files.pythonhosted.org/packages/df/9e/de18350292be44f3115972b1fba1e18efb1c51a9494cd1b53afbc6ced8a6/cachebox-4.4.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8f2edb0ba573b54f78e6a729e179688e6c78f40263705671723e725317334503", size = 378673 },
+    { url = "https://files.pythonhosted.org/packages/60/7d/1b737a5b8b98631712ce43f8c312b8005f7c1e31b9f24849da50d50cd30f/cachebox-4.4.1-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:f9e521e7f5befd0a00ecc148bed5d5c374db6b57650366955a84b23dfa2782d6", size = 391954 },
+    { url = "https://files.pythonhosted.org/packages/0e/a5/a9bd7192e0daf1bba15b270ca141deeeb09ceeec8bda57e1254410f6e75c/cachebox-4.4.1-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:5a034adbd1f12808343d8ee0a03b1541e2ac8e5d3aea318b52469a1f6a02ec2e", size = 530085 },
+    { url = "https://files.pythonhosted.org/packages/a3/c6/1f20e8b43ee8a719cdac9069d3ae0af82ce78d350c71a6559cfd1e3af477/cachebox-4.4.1-cp313-cp313-musllinux_1_1_armv7l.whl", hash = "sha256:367dbe95879fb7996572302faef3be48410e9e79750565d852f57ef08ee5d482", size = 645317 },
+    { url = "https://files.pythonhosted.org/packages/8e/24/8211f5c093b5de30897380451364b5e7e690c8eb004b63d2d59b2c861ead/cachebox-4.4.1-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:fdc0659f7676f77d37ed2d2b39e0b20be298f900a1d0e79d638d56a30c2bfc50", size = 550749 },
+    { url = "https://files.pythonhosted.org/packages/d7/db/8387c590cd9b28b60382dc48d76716ee4692a064afd19341b35fbcbe4d26/cachebox-4.4.1-cp313-cp313-win32.whl", hash = "sha256:ce1f710d9da956568809054fcf8ab6481dbf6d0a3622e87d4f22a45bd5f59717", size = 262543 },
+    { url = "https://files.pythonhosted.org/packages/e4/ae/a730c1fefbbbca7652cee629943db1ce196dce92fa2073e659795fffc3e2/cachebox-4.4.1-cp313-cp313-win_amd64.whl", hash = "sha256:025dee11fd5b01f635670d05ead2cb07c9f0101f60064ca862f976551453cc21", size = 274012 },
+]
+
+[[package]]
+name = "cachetools"
+version = "5.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c3/38/a0f315319737ecf45b4319a8cd1f3a908e29d9277b46942263292115eee7/cachetools-5.5.0.tar.gz", hash = "sha256:2cc24fb4cbe39633fb7badd9db9ca6295d766d9c2995f245725a46715d050f2a", size = 27661 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl", hash = "sha256:02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292", size = 9524 },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335 },
+]
+
+[[package]]
+name = "diskcache"
+version = "5.6.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc", size = 67916 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19", size = 45550 },
+]
+
+[[package]]
+name = "fundrive-quark"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "funget" },
+    { name = "funutil" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "funget", specifier = ">=1.0.41" },
+    { name = "funutil", specifier = ">=1.0.46" },
+]
+
+[[package]]
+name = "funfile"
+version = "1.0.15"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "funutil" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f9/fe/92ae7748205d4ec2fb1daa953e2d563bea1be1e0023361055fd4ee8b5a59/funfile-1.0.15.tar.gz", hash = "sha256:06fc715a97efe2c5187839686129a54ce2ed5a0eeda8334da40befa3e5166fb0", size = 4954 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/e6/4730f8e59e225be04f36d23cc94492947917b517dc5cdea008b6a8133aec/funfile-1.0.15-py3-none-any.whl", hash = "sha256:7c4af55388fd830e1eb80cb1235f6e069639ab8a9081777be92706e3ec8b7a5f", size = 6687 },
+]
+
+[[package]]
+name = "funget"
+version = "1.0.41"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "funfile" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7b/4f/72ee20997f8909992a32b44028ee497a6bde966407a775f16f67e2be7208/funget-1.0.41.tar.gz", hash = "sha256:6e33e9665a390dc9bdf34b60ebcd9ae8af79b332cdcd7b31b5dec895ef98a8b2", size = 5098 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fc/65/19e1df1f60274cce193546c1495261fdc399cb547ee616748fac4bfe82c6/funget-1.0.41-py3-none-any.whl", hash = "sha256:dfbb9ec53d81e9daff6825dd26a5323085c79f570feb839d82bdb98ca82eadd3", size = 7120 },
+]
+
+[[package]]
+name = "funutil"
+version = "1.0.46"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cachebox" },
+    { name = "cachetools" },
+    { name = "diskcache" },
+    { name = "loguru" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/30/60/f2602cfee28c633dcc2cbc2e53120edbc75cc13d670a410459d14aee0e5d/funutil-1.0.46.tar.gz", hash = "sha256:5444c7f7c7a25ac6b2d6da60dbb52563431e9055f9cfb7bcedc462f5f1490223", size = 17023 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a1/71/c7e24aa3540abb9ecfc2da0de6d8417d0f56652bde5f03f4ca4e8472fb34/funutil-1.0.46-py3-none-any.whl", hash = "sha256:6ffdc9d298cd4c10da87a1d6a5447921ec9854a4385024792d9216720bc2939f", size = 23502 },
+]
+
+[[package]]
+name = "loguru"
+version = "0.7.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "win32-setctime", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3a/05/a1dae3dffd1116099471c643b8924f5aa6524411dc6c63fdae648c4f1aca/loguru-0.7.3.tar.gz", hash = "sha256:19480589e77d47b8d85b2c827ad95d49bf31b0dcde16593892eb51dd18706eb6", size = 63559 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl", hash = "sha256:31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c", size = 61595 },
+]
+
+[[package]]
+name = "tqdm"
+version = "4.67.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2", size = 169737 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl", hash = "sha256:26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2", size = 78540 },
+]
+
+[[package]]
+name = "win32-setctime"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b3/8f/705086c9d734d3b663af0e9bb3d4de6578d08f46b1b101c2442fd9aecaa2/win32_setctime-1.2.0.tar.gz", hash = "sha256:ae1fdf948f5640aae05c511ade119313fb6a30d7eabe25fef9764dca5873c4c0", size = 4867 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/07/c6fe3ad3e685340704d314d765b7912993bcb8dc198f0e7a89382d37974b/win32_setctime-1.2.0-py3-none-any.whl", hash = "sha256:95d644c4e708aba81dc3704a116d8cbc974d70b3bdb8be1d150e36be6e9d1390", size = 4083 },
+]
